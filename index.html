@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>	Deepika Vikas - Portfolio</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
-<body>
+<body  background="./assets/images/eight_horns.png">
 		<header>	
 				<h1>Deepika Vikas</h1>
 
-				<ul>
-    				<li><a href="#">First link</a></li>
-    				<li><a href="#">Second link</a></li>
-    				<li><a href="#">Third link</a></li>
-				</ul>
+				
+
+				<ol>
+    				<li><a href="index.html">About</a></li>
+    				<li><a href="contact.html">Contact</a></li>
+    				<li><a href="portfolio.html">Portfolio</a></li>
+				</ol>
 				<!--<ul>
 						<li>About</li>
 						<li>Contact</li>
@@ -23,12 +25,15 @@
 
 		</header>
 
-		<div>	
-				<h2>About Me</h2>
-				<section>	
+		<div id="container">	
+				
+				<section class="maincontent">
+						<section id="aboutme">
+						<h2>About Me</h2>
+						</section>	
 
 						<aside>	
-							<img src="http://i.ndtvimg.com/i/2016-02/idli_625x350_61455181315.jpg" alt="image of idli"/>
+							<img src=" http://placehold.it/200x200" alt="image of deepika-vikas"/>
 						</aside>
 
 						
@@ -44,25 +49,30 @@
 
 						
 				</section>
-		</div>
-
-		<div>	
-				<h2>Connect with Me</h2>
-				<a href="https://github.com/Dpiks">
-					<img src="./assets/images/github_logo.png">
+		
+			
+			<section id="sidebar">	
+				<h2 id="connectwithme">Connect with Me</h2>
+				<a href="https://github.com/Dpiks" target="_blank">
+					<img src="./assets/images/github_logo.png" id="logo_size" alt="github_logo">
 				</a>
 
-				<a href="https://www.linkedin.com/in/deepika-vikas-5585b798">
-					<img src="./assets/images/linkedin_logo.png">
+				<a href="https://www.linkedin.com/in/deepika-vikas-5585b798" target="_blank">
+					<img src="./assets/images/linkedin_logo.png" id="logo_size" alt="linkedin_logo">
 				</a>
 
-				<a href="http://stackoverflow.com/users/6951760/deepika-vikas">
-					<img src="./assets/images/stackoverflow_logo.png">
+				<a href="http://stackoverflow.com/users/6951760/deepika-vikas" target="_blank">
+					<img src="./assets/images/stackoverflow_logo.png" id="logo_size" alt="stackoverflow_logo">
 				</a>
 
 
 				
+			</section>
+			
+			
+
 		</div>
+
 
 		<footer>	
 				©Copyright 2016 Deepika Vikas
