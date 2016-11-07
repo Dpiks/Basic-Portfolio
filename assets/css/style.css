@@ -4,7 +4,7 @@ body{
 	/*padding: 100px;*/
 	padding-top: 0px;
 	align-content: center;
-	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
 	/*background-image: url(../css/assets/images/eight_horns.png);
 	background-repeat: repeat-x;
 	background-repeat: repeat-y;*/
@@ -25,7 +25,7 @@ header{
 
 }
 h1{
-	background-color: #4aaaa5;
+	background-color:#4aaaa5 ;
 	background-size: 100px;
 	display: inline-block;
 	margin-bottom: 0px;
@@ -38,7 +38,7 @@ h1{
 
 }
 
-h2{
+h2,h3{
 	color: #4aaaa5;
 	padding-top: 15px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -48,7 +48,7 @@ h2{
 
 #connectwithme{
 	padding-bottom: 15px;
-	border-bottom: #cccccc solid 2px;
+	border-bottom: #dddddd solid 2px;
 }
 
 ol 
@@ -60,6 +60,7 @@ ol
 	margin-top: 30px;
 	padding:0;
 	text-align: center;
+	margin-bottom: 0px;
 
 
 	
@@ -67,11 +68,14 @@ ol
 
 li 
 {
-	float:left; 
+	float:left;
 	margin:0;
-	padding:15px; 
-	border-right:#ccc solid 1px;
+	padding-right:10px; 
+	border-right:#dddddd solid 1px;
 	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
 	
 }
 
@@ -98,6 +102,7 @@ li
 	padding-right: 25px;
 	padding-bottom: 25px;
 	margin-top:20px;
+	border:#dddddd solid 1px;
 
 	float:left;
 	
@@ -114,7 +119,7 @@ img{
 }
 
 #aboutme{
-	border-bottom: #cccccc solid 2px;
+	border-bottom: #dddddd solid 2px;
 
 }
 /*#side{
@@ -122,7 +127,7 @@ img{
 } */
 #sidebar{
 	background-color: #ffffff;
-	max-width: 270px;
+	max-width: 200px;
 	padding-left: 20px;
 	padding-right: 25px;
 	padding-bottom: 25px;
@@ -131,15 +136,20 @@ img{
 	float:right;
 	margin-left:20px;
 	margin-right: 0px;
+	border:#dddddd solid 1px;
 	
 	
 }
 
 #logo_size{
-	height: 42px;
-	width: 42px;
-	padding: 15px;
+	height: 45px;
+	width: 45px;
+	padding: 5px;
 	
+}
+
+#github_logo{
+	padding-left: 10px;
 }
 
 footer{
@@ -153,8 +163,101 @@ footer{
 
 a {
 	float:left;
+
 }
 
 p{
+	color:#777777;
+	font-size: 15px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.personal{
 	line-height: 30px;
+}
+
+.inputarea{
+	padding:0px;
+	margin-top:20px;
+	margin-bottom: 0px;
+}
+input{
+	width:600px;
+	height: 20px;
+	margin-bottom:10px;
+	font-size: 10px;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: left;
+}
+
+.form{
+	margin-top,margin-bottom:20px;
+}
+
+textarea{
+	margin-bottom: 20px;
+	float: left;
+
+}
+
+button{
+	display: block;
+	width:100px;
+	height: 40px;
+	text-align: center;
+	background-color: #4aaaa5;
+	border:none;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#ideas{
+
+}
+
+#tourism{
+
+}
+
+#driving, #games{
+
+	float: right;
+	clear:left;
+
+}
+
+.portfolio{
+	display:inline-block;
+	float:center;
+}
+
+.width{
+	padding-left: 20px;
+	width: 180px;
+	background-color: #4aaaa5;
+	height: 20px;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#ffffff;
+	margin-left: 20px;
+}
+
+
+.image-wrapper {
+	position: relative;
+    float: left;
+    width:180px;
+    padding:20px;
+    margin-left:30px;
+}
+.image-wrapper p {
+    position: absolute;
+    bottom:40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
+  
 }
